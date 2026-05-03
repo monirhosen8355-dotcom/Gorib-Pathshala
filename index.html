@@ -8,15 +8,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
+    <div id="terms-popup" class="terms-overlay">
+    <div class="terms-box">
+        <h2>📜 শর্তাবলী</h2>
+        <p>
+            এই ওয়েবসাইটের সকল কনটেন্ট শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে।
+            কোন অপব্যবহার করলে কর্তৃপক্ষ দায়ী থাকবে না।
+        </p>
+        <button onclick="acceptTerms()">আমি সম্মত</button>
+    </div>
+</div>
     <canvas id="bg-canvas"></canvas>
 
-    <!-- Top Routine Section -->
     <div class="top-routine">
         <marquee>📅 আলিম ১ম বর্ষ রুটিন: ৯ মে - কুরআন মাজিদ | ১১ মে - হাদিস শরিফ | ১৩ মে - ফিকহ ১ম | ১৫ মে - আরবি ১ম ... (সকল আপডেট এখানে পাবেন)</marquee>
     </div>
 
-    <!-- Hero Section -->
     <header class="hero">
         <nav>
             <div class="logo">গরিব <span>পাঠশালা</span></div>
@@ -34,7 +41,6 @@
         <div class="grid" id="subject-grid"></div>
     </section>
 
-    <!-- Madrasah Name Section -->
 <section class="madrasah-info">
     <div class="m-container">
         <h2 class="madrasah-name">Mowkara Darussunnat Salehiya Walia Dinia Madrasah</h2>
@@ -42,11 +48,36 @@
     </div>
 </section>
 
-    <footer>
-        <p>Developed with ❤️ by <strong>MD Monir Hosen</strong></p>
-    </footer>
+<div id="full-view" class="viewer-overlay">
+    <div class="viewer-card">
+        <span class="close-v" onclick="closeViewer()">&times;</span>
+        
+        <h2 id="v-subject-title" style="color: #00f2fe; margin-bottom: 10px;">বিষয়</h2>
+        <p style="font-size: 0.9rem; color: #888; margin-bottom: 20px;">মৌকারা দারুচ্ছুন্নাত ছালেহিয়া ওয়ালীয়া দ্বীনিয়া মাদ্রাসা</p>
+        
+        <div class="tab-system">
+            <button class="tab-btn active" onclick="switchTab('q-part')">
+                <i class="fas fa-question-circle"></i> Question Part
+            </button>
+            <button class="tab-btn" onclick="switchTab('a-part')">
+                <i class="fas fa-check-circle"></i> Answer Part
+            </button>
+        </div>
 
-    <!-- Advanced Viewer with Tabs -->
+        <div id="q-part" class="tab-content active-content">
+        </div>
+        <div id="a-part" class="tab-content">
+        </div>
+    </div>
+</div>
+
+  <footer>
+    <p>
+        Developed with ❤️ by 
+        <strong class="dev-name">MD Monir Hosen</strong>
+    </p>
+</footer>
+
     <div id="full-view" class="viewer-overlay">
         <div class="viewer-card">
             <span class="close-v" onclick="closeViewer()">&times;</span>

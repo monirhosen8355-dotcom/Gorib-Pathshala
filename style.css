@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap');
 
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Hind Siliguri', sans-serif; }
-body { background: #020406; color: #fff; overflow-x: hidden; text-align: center; } /* পুরো বডি সেন্টার করলাম */
+
+body { 
+    background: #020406; 
+    color: #fff; 
+    overflow-x: hidden; 
+    text-align: center; 
+}
 
 #bg-canvas { position: fixed; inset: 0; z-index: -1; }
 
-/* ৩. উপরের রুটিন বার (সাদা ব্যাকগ্রাউন্ড ও কালো লেখা) */
+/* ৩. উপরের রুটিন বার */
 .top-routine { 
-    background: #ffffff; /* পিওর হোয়াইট ব্যাকগ্রাউন্ড */
-    color: #000000;    /* ডিপ ব্ল্যাক টেক্সট */
+    background: #ffffff; 
+    color: #000000;    
     padding: 10px 0; 
     font-weight: bold; 
     z-index: 1000; 
     position: relative; 
     font-size: 0.95rem;
-    border-bottom: 2px solid #00f2fe; /* নিচে চিকন একটা সায়ান বর্ডার যাতে গ্লসি লাগে */
+    border-bottom: 2px solid #00f2fe;
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
@@ -34,7 +40,7 @@ nav { display: flex; justify-content: space-between; padding: 20px 8%; align-ite
     100% { background: rgba(255, 0, 0, 0.7); box-shadow: 0 0 15px #ff0000; }
 }
 
-/* Hero Content - Center Alignment Fixed */
+/* Hero Content */
 .hero-content { 
     height: 60vh; 
     display: flex; 
@@ -73,50 +79,139 @@ nav { display: flex; justify-content: space-between; padding: 20px 8%; align-ite
 .card i { font-size: 2.5rem; color: #00f2fe; margin-bottom: 15px; display: block; }
 .teacher-empty { font-size: 0.85rem; color: #777; margin-top: 12px; font-style: italic; display: block; }
 
-/* Motivation Section */
-.motivation { padding: 80px 10%; background: linear-gradient(to bottom, transparent, rgba(0, 242, 254, 0.05)); }
-.m-box h3 { font-size: 1.6rem; color: #ddd; font-style: italic; line-height: 1.6; }
+/* পপ-আপ ব্যাকগ্রাউন্ড (Viewer Overlay) */
+.viewer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    backdrop-filter: blur(10px);
+    z-index: 9999; /* সবকিছুর উপরে থাকবে */
+    display: none; /* JS দিয়ে এটা flex করা হবে */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* পপ-আপ কার্ড */
+.viewer-card {
+    width: 100%;
+    max-width: 700px;
+    max-height: 85vh; /* ফোনের জন্য হাইট লিমিট */
+    background: #0d1117;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #00f2fe;
+    position: relative;
+    box-shadow: 0 0 40px rgba(0, 242, 254, 0.25);
+    text-align: left;
+    overflow-y: auto; /* কন্টেন্ট বেশি হলে স্ক্রল হবে */
+}
+
+/* ক্লোজ বাটন */
+.close-v {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2.5rem;
+    color: #ff003c;
+    cursor: pointer;
+    line-height: 1;
+    z-index: 10001;
+    transition: 0.3s;
+}
+.close-v:hover { transform: scale(1.2); }
+
+/* ট্যাব সিস্টেম */
+.tab-system {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0 15px 0;
+    border-bottom: 1px solid #222;
+    padding-bottom: 15px;
+}
+
+.tab-btn {
+    background: #1a1d23;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    flex: 1;
+    transition: 0.3s;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tab-btn.active {
+    background: #00f2fe;
+    color: #000;
+    border-color: #00f2fe;
+}
+
+/* কন্টেন্ট */
+.tab-content { display: none; padding: 15px 5px; line-height: 1.6; color: #ddd; }
+.tab-content h3 { color: #00f2fe; margin-bottom: 15px; border-left: 4px solid #00f2fe; padding-left: 10px; }
+.active-content { display: block; animation: fadeIn 0.4s ease; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* মাদ্রাসার তথ্য */
+.madrasah-info { padding: 80px 10%; }
+.madrasah-name { font-size: 2rem; color: #fff; text-shadow: 0 0 10px rgba(0,242,254,0.5); }
+.divider { width: 100px; height: 3px; background: #00f2fe; margin: 20px auto; }
 
 /* Footer */
-footer { padding: 40px; border-top: 1px solid rgba(255,255,255,0.05); color: #555; font-size: 0.9rem; }
-footer strong { color: #00f2fe; }
+footer { padding: 40px; color: #555; }
 
-/* Tab & Viewer Styles remain the same as previous */
-.viewer-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.95); z-index: 5000; display: none; align-items: center; justify-content: center; padding: 20px; }
-.viewer-card { width: 100%; max-width: 800px; background: #0d1117; padding: 40px; border-radius: 20px; border: 1px solid #00f2fe; text-align: left; position: relative; }
-.tab-system { display: flex; gap: 10px; margin: 25px 0; border-bottom: 1px solid #222; padding-bottom: 15px; }
-.tab-btn { background: #1a1d23; color: #fff; border: 1px solid #333; padding: 10px 20px; cursor: pointer; border-radius: 5px; flex: 1; transition: 0.3s; }
-.tab-btn.active { background: #00f2fe; color: #000; font-weight: bold; border-color: #00f2fe; }
-.tab-content { display: none; padding-top: 10px; }
-.active-content { display: block; }
-.close-v { position: absolute; top: 15px; right: 20px; font-size: 2rem; color: #ff003c; cursor: pointer; }
-/* মাদ্রাসার নামের বিশেষ স্টাইল */
-.madrasah-info {
-    padding: 100px 10%;
-    background: linear-gradient(to top, rgba(0, 242, 254, 0.05), transparent);
-}
-
-.madrasah-name {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #fff;
-    /* হালকা গ্লোয়িং ইফেক্ট */
-    text-shadow: 0 0 10px rgba(0, 242, 254, 0.5), 0 0 20px rgba(0, 242, 254, 0.3);
-    margin-bottom: 20px;
-    line-height: 1.4;
-}
-
-.divider {
-    width: 150px;
-    height: 4px;
-    background: linear-gradient(90deg, transparent, #00f2fe, transparent);
-    margin: 0 auto;
-}
-
-/* মোবাইল ফোনের জন্য ছোট করা */
+/* মোবাইল অপ্টিমাইজেশন */
 @media (max-width: 768px) {
-    .madrasah-name {
-        font-size: 1.5rem;
-    }
+    .glow-name { font-size: 2.2rem; }
+    .viewer-card { padding: 20px; }
+    .tab-btn { padding: 10px 5px; font-size: 0.8rem; }
+}
+.terms-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.terms-box {
+    background: #0d1117;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #00f2fe;
+    max-width: 400px;
+    text-align: center;
+}
+
+.terms-box h2 {
+    color: #00f2fe;
+    margin-bottom: 15px;
+}
+
+.terms-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00f2fe;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dev-name {
+    color: #00f2fe;
+    text-shadow: 0 0 10px #00f2fe;
 }
