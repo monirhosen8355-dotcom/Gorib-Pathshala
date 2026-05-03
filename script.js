@@ -1,77 +1,113 @@
-// Subject specific data
-const subjectData = {
-    'quran': {
-        title: 'কুরআন মাজিদ',
-        imp: '১. সূরা বাকারার শেষ দুই আয়াতের শানে নুযুল ও শিক্ষা। <br> ২. সূরা আল-ইমরানের গুরুত্বপূর্ণ আয়াতসমূহ।',
-        notes: 'অধ্যায় ১: ওহীর গুরুত্ব ও প্রকারভেদ। ওহী মাতলু ও গায়রে মাতলু এর পার্থক্য শিখে রেখো।',
-        quick: 'পরীক্ষার আগে অবশ্যই আয়াতগুলোর অর্থ ও নির্দিষ্ট কিছু শব্দের তাহকীক দেখে নিবে।'
-    },
-    'hadith': {
-        title: 'হাদিস',
-        imp: '১. ইলমের গুরুত্ব সম্পর্কিত হাদিস। <br> ২. ইমান ও নিফাকের লক্ষণ সম্পর্কিত হাদিস।',
-        notes: 'সিহাহ সিত্তার পরিচিতি এবং ইমাম বুখারী (রহ)-এর জীবনী গুরুত্বপূর্ণ।',
-        quick: 'হাদিসের রাবী ও মতন ভালো করে মুখস্থ করো।'
-    },
-    'fiqh': {
-        title: 'ফিকহ',
-        imp: '১. কিতাবুত তাহারাত থেকে ওযু ও গোসলের ফরযসমূহ। <br> ২. সালাত অধ্যায়ের ওয়াজিব ও সুন্নাহ।',
-        notes: 'পরিভাষাগুলো (যেমন: ফরয, ওয়াজিব, সুন্নাত) ক্লিয়ার রাখো।',
-        quick: 'ইমাম আবু হানিফা (রহ) এর মাযহাবের দলিলগুলো এক নজর দেখে নাও।'
-    },
-    'arabic': {
-        title: 'আরবি',
-        imp: '১. নির্দিষ্ট নাস (অনুচ্ছেদ) থেকে প্রশ্ন উত্তর। <br> ২. তারকীব ও বাক্য গঠন।',
-        notes: ' নাহু ও সরফ এর প্রধান নিয়মগুলো রিভিশন দাও।',
-        quick: 'বিগত বছরের শব্দার্থগুলো বেশি করে পড়ো।'
-    },
-    'bangla': {
-        title: 'বাংলা',
-        imp: '১. অপরিচিতা ও বিড়ালের মূলভাব। <br> ২. বিভীষণের প্রতি মেঘনাদ কবিতার ব্যাখ্যা।',
-        notes: 'লেখক পরিচিতি ও জন্ম-মৃত্যু সাল মনে রাখার টেকনিক ফলো করো।',
-        quick: 'সৃজনশীল প্রশ্নের "খ" ও "গ" অংশে পয়েন্ট করে লেখার চেষ্টা করবে।'
-    },
-    'english': {
-        title: 'ইংরেজি',
-        imp: '1. Article & Preposition Rules. <br> 2. Right form of verbs.',
-        notes: 'Focus on Passage translation and basic grammar.',
-        quick: 'Practice previous board questions for composition part.'
-    }
-};
+const subjectData = [
+    { title: 'কুরআন মাজিদ', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'হাদিস শরিফ', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'ফিকহ ১ম', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'ফিকহ ২য়', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'আরবি ১ম', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'আরবি ২য়', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'বালাগাত', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'মানতিক', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'ইতিহাস', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'উসূলে হাদিস', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'ইংরেজি', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' },
+    { title: 'ICT', q: 'প্রশ্ন এখানে লিখুন...', a: 'উত্তর এখানে লিখুন...' }
+];
 
-// Function to open subject viewer
-function openSubject(subjectKey) {
-    const data = subjectData[subjectKey];
-    document.getElementById('subject-title').innerText = data.title;
-    document.getElementById('imp-questions').innerHTML = data.imp;
-    document.getElementById('short-notes').innerHTML = data.notes;
-    document.getElementById('quick-rev').innerHTML = data.quick;
+// ২. কার্ডগুলো গ্রিডে জেনারেট করা
+const grid = document.getElementById('subject-grid');
 
-    document.getElementById('subjects').style.display = 'none';
-    document.querySelector('.hero').style.display = 'none';
-    document.getElementById('content-viewer').style.display = 'block';
-    window.scrollTo(0, 0);
-}
-
-// Function to close subject viewer
-function closeSubject() {
-    document.getElementById('subjects').style.display = 'block';
-    document.querySelector('.hero').style.display = 'flex';
-    document.getElementById('content-viewer').style.display = 'none';
-}
-
-// Accordion logic
-document.querySelectorAll('.accordion-header').forEach(header => {
-    header.addEventListener('click', () => {
-        const body = header.nextElementSibling;
-        const icon = header.querySelector('i');
-        
-        // Toggle body visibility
-        if (body.style.display === "block") {
-            body.style.display = "none";
-            icon.style.transform = "rotate(0deg)";
-        } else {
-            body.style.display = "block";
-            icon.style.transform = "rotate(180deg)";
-        }
-    });
+subjectData.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+        <i class="fas fa-book-open"></i>
+        <h3>${item.title}</h3>
+        <span class="teacher-empty">শিক্ষক: [নাম দিন]</span>
+    `;
+    card.onclick = () => openViewer(item);
+    grid.appendChild(card);
 });
+
+// ৩. ভিউয়ার ওপেন করার ফাংশন
+function openViewer(item) {
+    document.getElementById('v-subject-title').innerText = item.title;
+    document.getElementById('q-part').innerHTML = `<h3>${item.title} - প্রশ্নপত্র</h3><p>${item.q}</p>`;
+    document.getElementById('a-part').innerHTML = `<h3>${item.title} - উত্তরপত্র</h3><p>${item.a}</p>`;
+    
+    // ডিফল্টভাবে প্রথম ট্যাব ওপেন করা
+    switchTab('q-part');
+    
+    document.getElementById('full-view').style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // স্ক্রল বন্ধ করা
+}
+
+// ৪. ভিউয়ার বন্ধ করার ফাংশন
+function closeViewer() {
+    document.getElementById('full-view').style.display = 'none';
+    document.body.style.overflow = 'auto'; // স্ক্রল চালু করা
+}
+
+// ৫. ট্যাব পরিবর্তন করার ফাংশন (Question/Answer)
+function switchTab(tabId) {
+    // সব কন্টেন্ট হাইড করা
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active-content'));
+    // সব বাটন থেকে একটিভ ক্লাস সরানো
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    
+    // সিলেক্টেড ট্যাব শো করা
+    document.getElementById(tabId).classList.add('active-content');
+    
+    // সঠিক বাটনে একটিভ ক্লাস দেওয়া
+    const activeBtn = tabId === 'q-part' ? 0 : 1;
+    document.querySelectorAll('.tab-btn')[activeBtn].classList.add('active');
+}
+
+// ৬. ব্যাকগ্রাউন্ড এনিমেশন (হালকা স্পিড)
+const canvas = document.getElementById('bg-canvas');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+class Particle {
+    constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.speedX = Math.random() * 0.8 - 0.4; // গতি কন্ট্রোল করা হয়েছে
+        this.speedY = Math.random() * 0.8 - 0.4;
+        this.size = Math.random() * 2;
+    }
+    update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        if (this.x > canvas.width || this.x < 0) this.speedX *= -1;
+        if (this.y > canvas.height || this.y < 0) this.speedY *= -1;
+    }
+    draw() {
+        ctx.fillStyle = 'rgba(0, 242, 254, 0.4)';
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+    }
+}
+
+for (let i = 0; i < 70; i++) particles.push(new Particle());
+
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(p => { p.update(); p.draw(); });
+    requestAnimationFrame(animate);
+}
+animate();
+
+// ৭. টাইমার (পুলিশ লাইট ইফেক্ট সহ)
+const target = new Date("May 9, 2026 10:00:00").getTime();
+setInterval(() => {
+    const now = new Date().getTime();
+    const diff = target - now;
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const s = Math.floor((diff % (1000 * 60)) / 1000);
+    document.getElementById('timer').innerText = `মিশন শুরু: ${days} দিন ${h}:${m}:${s}`;
+}, 1000);
