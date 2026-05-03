@@ -1,0 +1,123 @@
+<!-- <!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>গরিব পাঠশালা</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>গরিব পাঠশালা</h1>
+  <p>আলিম ১ম বর্ষ • স্মার্ট রিভিশন সিস্টেম</p>
+  <button class="btn" onclick="go()">শুরু করুন</button>
+</section>
+
+<section class="subjects" id="subjects">
+  <div class="card"><h3>📖 কুরআন মাজিদ</h3></div>
+  <div class="card"><h3>📘 হাদিস</h3></div>
+  <div class="card"><h3>🕌 ফিকহ</h3></div>
+  <div class="card"><h3>🌙 আরবি</h3></div>
+  <div class="card"><h3>📚 বাংলা</h3></div>
+  <div class="card"><h3>🇬🇧 ইংরেজি</h3></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>গরিব পাঠশালা | আলিম ১ম বর্ষ</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Background Glow Objects -->
+    <div class="blob"></div>
+    <div class="blob2"></div>
+
+    <nav>
+        <div class="logo">গরিব <span>পাঠশালা</span></div>
+        <div class="exam-tag">পরীক্ষা বাকি: ৫ দিন</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="fade-in">সাফল্যের সহজ পথ</h1>
+        <p class="fade-in-delay">আলিম ১ম বর্ষের দাগানো সব গুরুত্বপূর্ণ প্রশ্ন ও সমাধান এখন এক ক্লিকে।</p>
+        <a href="#subjects" class="btn-glow">পড়াশোনা শুরু করো</a>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects">
+        <h2 class="section-title">বিষয় ভিত্তিক সাজেশন</h2>
+        <div class="subject-grid">
+            <!-- Cards -->
+            <div class="card" onclick="openSubject('quran')">
+                <i class="fas fa-book-quran"></i>
+                <h3>কুরআন মাজিদ</h3>
+                <p>দাগানো আয়াত ও শানে নুযুল</p>
+            </div>
+            <div class="card" onclick="openSubject('hadith')">
+                <i class="fas fa-mosque"></i>
+                <h3>হাদিস</h3>
+                <p>গুরুত্বপূর্ণ হাদিস ও ব্যাখ্যা</p>
+            </div>
+            <div class="card" onclick="openSubject('fiqh')">
+                <i class="fas fa-scale-balanced"></i>
+                <h3>ফিকহ</h3>
+                <p>মাসআলা ও প্রয়োজনীয় নোট</p>
+            </div>
+            <div class="card" onclick="openSubject('arabic')">
+                <i class="fas fa-pen-nib"></i>
+                <h3>আরবি</h3>
+                <p>নাস ও ব্যাকরণ সমাধান</p>
+            </div>
+            <div class="card" onclick="openSubject('bangla')">
+                <i class="fas fa-language"></i>
+                <h3>বাংলা</h3>
+                <p>গদ্য, পদ্য ও ব্যাকরণ</p>
+            </div>
+            <div class="card" onclick="openSubject('english')">
+                <i class="fas fa-font"></i>
+                <h3>ইংরেজি</h3>
+                <p>Grammar & Composition</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section (Hidden by default) -->
+    <section id="content-viewer" class="content-section">
+        <button class="close-btn" onclick="closeSubject()"><i class="fas fa-arrow-left"></i> ফিরে যাও</button>
+        <h2 id="subject-title">বিষয়</h2>
+        
+        <div class="content-container">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">সৃজনশীল/বড় প্রশ্ন (দাগানো) <i class="fas fa-chevron-down"></i></div>
+                    <div class="accordion-body" id="imp-questions">এখানে গুরুত্বপূর্ণ প্রশ্নগুলো থাকবে...</div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">শর্ট নোটস <i class="fas fa-chevron-down"></i></div>
+                    <div class="accordion-body" id="short-notes">অধ্যায় ভিত্তিক সংক্ষিপ্ত নোট...</div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">কুইক রিভিশন <i class="fas fa-chevron-down"></i></div>
+                    <div class="accordion-body" id="quick-rev">শেষ মুহূর্তের প্রস্তুতি...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Developed with ❤️ by <span>Muha. Kamrul Islam Masud</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
