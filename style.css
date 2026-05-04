@@ -215,3 +215,19 @@ footer { padding: 40px; color: #555; }
     color: #00f2fe;
     text-shadow: 0 0 10px #00f2fe;
 }
+.start-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #00f2fe;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background: #00c9d6;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00f2fe;
+}

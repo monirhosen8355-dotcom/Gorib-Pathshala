@@ -144,3 +144,39 @@ function acceptTerms() {
 window.onload = function () {
     document.getElementById("terms-popup").style.display = "flex";
 };
+// 🔊 popup open sound (১ বারই বাজবে)
+window.addEventListener("load", function () {
+    const openSound = document.getElementById("popup-open-sound");
+
+    openSound.volume = 0.4;
+
+    // autoplay block হলে click এ চালু হবে
+    openSound.play().catch(() => {
+        document.addEventListener("click", () => {
+            openSound.play();
+        }, { once: true });
+    });
+});
+
+// 🔊 popup close sound + main sound বন্ধ
+function acceptTerms() {
+    document.getElementById("terms-popup").style.display = "none";
+
+    const closeSound = document.getElementById("popup-close-sound");
+    closeSound.volume = 0.5;
+    closeSound.play();
+}
+
+// 🔴 card open হলে সব sound বন্ধ হবে
+const originalOpenViewer = openViewer;
+openViewer = function(item) {
+    document.getElementById("popup-open-sound")?.pause();
+    document.getElementById("popup-close-sound")?.pause();
+
+    originalOpenViewer(item);
+};
+function scrollToSubjects() {
+    document.querySelector(".subjects-container").scrollIntoView({
+        behavior: "smooth"
+    });
+}
