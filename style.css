@@ -32,7 +32,7 @@ nav { display: flex; justify-content: space-between; padding: 20px 8%; align-ite
 /* Police Light Timer */
 .police-light { 
     font-weight: bold; padding: 8px 15px; border-radius: 5px; 
-    animation: siren 0.6s infinite; border: 2px solid #fff; font-size: 0.9rem;
+    animation: siren 3s infinite; border: 2px solid #fff; font-size: 0.9rem;
 }
 @keyframes siren {
     0% { background: rgba(255, 0, 0, 0.7); box-shadow: 0 0 15px #ff0000; }

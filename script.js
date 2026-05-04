@@ -1,20 +1,47 @@
-// ১. ১২টি বিষয়ের ডাটাবেজ
 const subjectData = [
-    { title: 'কুরআন মাজিদ', q: '১. সূরা বাকারার শেষ ৩ আয়াত কি?', a: 'উত্তর: আমানাল রাসূলু বিমা উনযিলা...' },
-    { title: 'হাদিস শরিফ', q: '১. ওহী কত প্রকার?', a: 'উত্তর: ওহী প্রধানত দুই প্রকার...' },
-    { title: 'ফিকহ ১ম', q: '১. ওযুর ফরয কয়টি?', a: 'উত্তর: ওযুর ফরয ৪টি।' },
-    { title: 'ফিকহ ২য়', q: 'ফিকহ ২য় এর গুরুত্বপূর্ণ প্রশ্নসমূহ...', a: 'ফিকহ ২য় এর উত্তরসমূহ...' },
-    { title: 'আরবি ১ম', q: '১. আল-আদাব এর সংজ্ঞা দাও।', a: 'উত্তর: সাহিত্যের বিশেষ শাখা...' },
-    { title: 'আরবি ২য়', q: 'আরবি ২য় প্রশ্ন এখানে...', a: 'আরবি ২য় উত্তর এখানে...' },
-    { title: 'বালাগাত', q: 'বালাগাত প্রশ্ন এখানে...', a: 'বালাগাত উত্তর এখানে...' },
-    { title: 'মানতিক', q: 'মানতিক প্রশ্ন এখানে...', a: 'মানতিক উত্তর এখানে...' },
-    { title: 'ইতিহাস', q: 'ইতিহাস প্রশ্ন এখানে...', a: 'ইতিহাস উত্তর এখানে...' },
-    { title: 'উসূলে হাদিস', q: 'উসূলে হাদিস প্রশ্ন এখানে...', a: 'উসূলে হাদিস উত্তর এখানে...' },
-    { title: 'ইংরেজি', q: 'ইংরেজি প্রশ্ন এখানে...', a: 'ইংরেজি উত্তর এখানে...' },
-    { title: 'ICT', q: 'ICT প্রশ্ন এখানে...', a: 'ICT উত্তর এখানে...' }
+    { 
+        title: 'বালাগাত', 
+        q: 'Question paper', 
+        a: 'বালাগাতের পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Balagat question.jpg'],
+        aImgs: [
+            { img: 'image/qu1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qu1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qu1by3.jpg', text: 'Question1by3' },
+            
+            { img: 'image/qu2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qu2by2.jpg', text: 'Question2by2' },
+
+            { img: 'image/qu3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qu3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qu3by3.jpg', text: 'Question3by4' },
+
+            { img: 'image/qu4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qu4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qu4by3.jpg', text: 'Question4by3' },
+
+            { img: 'image/qu5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qu5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qu5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qu6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qu6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qu6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+    { title: 'হাদিস শরিফ', q: '১. ওহী কত প্রকার?', a: 'উত্তর: ওহী প্রধানত দুই প্রকার...', qImgs: [], aImgs: [] },
+    { title: 'ফিকহ ১ম', q: '১. ওযুর ফরয কয়টি?', a: 'উত্তর: ওযুর ফরয ৪টি।', qImgs: [], aImgs: [] },
+    { title: 'ফিকহ ২য়', q: 'ফিকহ ২য় এর গুরুত্বপূর্ণ প্রশ্নসমূহ...', a: 'ফিকহ ২য় এর উত্তরসমূহ...', qImgs: [], aImgs: [] },
+    { title: 'আরবি ১ম', q: '১. আল-আদাব এর সংজ্ঞা দাও।', a: 'উত্তর: সাহিত্যের বিশেষ শাখা...', qImgs: [], aImgs: [] },
+    { title: 'আরবি ২য়', q: 'আরবি ২য় প্রশ্ন এখানে...', a: 'আরবি ২য় উত্তর এখানে...', qImgs: [], aImgs: [] },
+    { title: 'বালাগাত', q: 'বালাগাত প্রশ্ন এখানে...', a: 'বালাগাত উত্তর এখানে...', qImgs: [], aImgs: [] },
+    { title: 'মানতিক', q: 'মানতিক প্রশ্ন এখানে...', a: 'মানতিক উত্তর এখানে...', qImgs: [], aImgs: [] },
+    { title: 'ইতিহাস', q: 'ইতিহাস প্রশ্ন এখানে...', a: 'ইতিহাস উত্তর এখানে...', qImgs: [], aImgs: [] },
+    { title: 'উসূলে হাদিস', q: 'উসূলে হাদিস প্রশ্ন এখানে...', a: 'উসূলে হাদিস উত্তর এখানে...', qImgs: [], aImgs: [] },
+    { title: 'ইংরেজি', q: 'ইংরেজি প্রশ্ন এখানে...', a: 'ইংরেজি উত্তর এখানে...', qImgs: [], aImgs: [] },
+    { title: 'ICT', q: 'ICT প্রশ্ন এখানে...', a: 'ICT উত্তর এখানে...', qImgs: [], aImgs: [] }
 ];
 
-// ২. কার্ডগুলো গ্রিডে জেনারেট করা
 const grid = document.getElementById('subject-grid');
 
 if (grid) {
@@ -24,14 +51,13 @@ if (grid) {
         card.innerHTML = `
             <i class="fas fa-book-open"></i>
             <h3>${item.title}</h3>
-            <span class="teacher-empty">শিক্ষক: [নাম দিন]</span>
+            <span class="teacher-empty">শিক্ষক: [Yeasin]</span>
         `;
         card.onclick = () => openViewer(item);
         grid.appendChild(card);
     });
 }
 
-// ৩. পপ-আপ (Viewer) ওপেন করার ফাংশন
 function openViewer(item) {
     const viewer = document.getElementById('full-view');
     const title = document.getElementById('v-subject-title');
@@ -40,26 +66,49 @@ function openViewer(item) {
 
     if (viewer) {
         title.innerText = item.title;
-        qPart.innerHTML = `<h3>${item.title} - প্রশ্নপত্র</h3><p>${item.q}</p>`;
-        aPart.innerHTML = `<h3>${item.title} - উত্তরপত্র</h3><p>${item.a}</p>`;
-        
+
+        const qImages = item.qImgs && item.qImgs.length ? item.qImgs.map(img => `
+            <div style="margin-top:15px">
+                <img src="${img}" style="width:100%; border-radius:10px;">
+                <a href="${img}" download style="display:block; margin-top:5px; color:#00f2fe;">⬇ Download</a>
+            </div>
+        `).join('') : '';
+
+        // 🔥 শুধু এখানে update (text + image)
+        const aImages = item.aImgs && item.aImgs.length ? item.aImgs.map(obj => `
+            <div style="margin-top:15px">
+                <p style="margin-bottom:5px; font-weight:bold;">${obj.text}</p>
+                <img src="${obj.img}" style="width:100%; border-radius:10px;">
+                <a href="${obj.img}" download style="display:block; margin-top:5px; color:#00f2fe;">⬇ Download</a>
+            </div>
+        `).join('') : '';
+
+        qPart.innerHTML = `
+            <h3>${item.title} - প্রশ্নপত্র</h3>
+            <p>${item.q}</p>
+            ${qImages}
+        `;
+
+        aPart.innerHTML = `
+            <h3>${item.title} - উত্তরপত্র</h3>
+            <p>${item.a}</p>
+            ${aImages}
+        `;
+
         switchTab('q-part');
-        
-        viewer.style.display = 'flex'; 
-        document.body.style.overflow = 'hidden'; 
+        viewer.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
     }
 }
 
-// ৪. পপ-আপ বন্ধ করার ফাংশন
 function closeViewer() {
     const viewer = document.getElementById('full-view');
     if (viewer) {
         viewer.style.display = 'none';
-        document.body.style.overflow = 'auto'; 
+        document.body.style.overflow = 'auto';
     }
 }
 
-// ৫. ট্যাব পরিবর্তন করার ফাংশন
 function switchTab(tabId) {
     document.querySelectorAll('.tab-content').forEach(content => {
         content.classList.remove('active-content');
@@ -82,13 +131,13 @@ function switchTab(tabId) {
     }
 }
 
-// ৬. এনিমেশন
 const canvas = document.getElementById('bg-canvas');
 if (canvas) {
     const ctx = canvas.getContext('2d');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     let particles = [];
+
     class Particle {
         constructor() {
             this.x = Math.random() * canvas.width;
@@ -98,16 +147,21 @@ if (canvas) {
             this.size = Math.random() * 2;
         }
         update() {
-            this.x += this.speedX; this.y += this.speedY;
+            this.x += this.speedX;
+            this.y += this.speedY;
             if (this.x > canvas.width || this.x < 0) this.speedX *= -1;
             if (this.y > canvas.height || this.y < 0) this.speedY *= -1;
         }
         draw() {
             ctx.fillStyle = 'rgba(0, 242, 254, 0.4)';
-            ctx.beginPath(); ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2); ctx.fill();
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fill();
         }
     }
+
     for (let i = 0; i < 70; i++) particles.push(new Particle());
+
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         particles.forEach(p => { p.update(); p.draw(); });
@@ -116,7 +170,6 @@ if (canvas) {
     animate();
 }
 
-// ৭. টাইমার
 const target = new Date("May 9, 2026 10:00:00").getTime();
 setInterval(() => {
     const now = new Date().getTime();
@@ -127,54 +180,34 @@ setInterval(() => {
         const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const s = Math.floor((diff % (1000 * 60)) / 1000);
         const timerElement = document.getElementById('timer');
-        if (timerElement) timerElement.innerText = `মিশন শুরু: ${days} দিন ${h}:${m}:${s}`;
+        if (timerElement) timerElement.innerText = `Deadline: ${days} দিন ${h}:${m}:${s}`;
     }
 }, 1000);
 
-// পপ-আপের বাইরে ক্লিক করলে বন্ধ হবে
 window.onclick = function(event) {
     const viewer = document.getElementById('full-view');
     if (event.target == viewer) closeViewer();
 }
+
 function acceptTerms() {
     document.getElementById("terms-popup").style.display = "none";
-}
-
-// page load হলে popup দেখাবে
-window.onload = function () {
-    document.getElementById("terms-popup").style.display = "flex";
-};
-// 🔊 popup open sound (১ বারই বাজবে)
-window.addEventListener("load", function () {
-    const openSound = document.getElementById("popup-open-sound");
-
-    openSound.volume = 0.4;
-
-    // autoplay block হলে click এ চালু হবে
-    openSound.play().catch(() => {
-        document.addEventListener("click", () => {
-            openSound.play();
-        }, { once: true });
-    });
-});
-
-// 🔊 popup close sound + main sound বন্ধ
-function acceptTerms() {
-    document.getElementById("terms-popup").style.display = "none";
-
     const closeSound = document.getElementById("popup-close-sound");
     closeSound.volume = 0.5;
     closeSound.play();
 }
 
-// 🔴 card open হলে সব sound বন্ধ হবে
-const originalOpenViewer = openViewer;
-openViewer = function(item) {
-    document.getElementById("popup-open-sound")?.pause();
-    document.getElementById("popup-close-sound")?.pause();
+window.addEventListener("load", function () {
+    const popup = document.getElementById("terms-popup");
+    const openSound = document.getElementById("popup-open-sound");
 
-    originalOpenViewer(item);
-};
+    popup.style.display = "flex";
+
+    popup.addEventListener("click", function () {
+        openSound.volume = 0.4;
+        openSound.play();
+    }, { once: true });
+});
+
 function scrollToSubjects() {
     document.querySelector(".subjects-container").scrollIntoView({
         behavior: "smooth"
