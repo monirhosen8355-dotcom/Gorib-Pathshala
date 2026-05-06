@@ -29,7 +29,19 @@
     <canvas id="bg-canvas"></canvas>
 
     <div class="top-routine">
-        <marquee>📅 আলিম ১ম বর্ষ রুটিন: ৯ মে - কুরআন মাজিদ | ১১ মে - হাদিস শরিফ | ১৩ মে - ফিকহ ১ম | ১৫ মে - আরবি ১ম ... (সকল আপডেট এখানে পাবেন)</marquee>
+        <marquee>📅 আলিম ১ম বর্ষ রুটিন:
+০৯.০৫.২৬ — আরবি ১ম
+১০.০৫.২৬ — ইংরেজি ২য়
+১১.০৫.২৬ — হাদীস
+১২.০৫.২৬ — ইতিহাস
+১৩.০৫.২৬ — ইংরেজি ১ম
+১৪.০৫.২৬ — ফিকহ ২য়
+১৬.০৫.২৬ — বাংলা ২য় / পৌর ১ম
+১৭.০৫.২৬ — বালাগাত / তথ্য
+১৮.০৫.২৬ — বাংলা ১ম
+১৯.০৫.২৬ — ফিকহ ১ম
+২০.০৫.২৬ — কোরআন
+২১.০৫.২৬ — আরবী ২য়(সকল আপডেট এখানে পাবেন)</marquee>
     </div>
 
     <header class="hero">
@@ -43,8 +55,15 @@
             <p>আপনার কাঙ্ক্ষিত বিষয়টি নির্বাচন করে প্রস্তুতি শুরু করুন।</p>
         </div>
         <button class="start-btn" onclick="scrollToSubjects()">
-    🚀 শুরু করুন
+    🚀 পড়া লেখা শুরু করো
 </button>
+
+<button class="routine-btn" onclick="showRoutine()">
+  রুটিন
+</button>
+<div id="routineBox" style="display:none;">
+  <img src="image/Routin.jpg" class="routine-img">
+</div>
     </header>
 
     <section class="subjects-container">

@@ -249,3 +249,19 @@ function scrollToSubjects() {
         behavior: "smooth"
     });
 }
+function showRoutine(){
+  document.getElementById("routineBox").style.display = "block";
+}
+function showRoutine(){
+
+  let box = document.getElementById("routineBox");
+
+  if(box.style.display === "block"){
+    box.style.display = "none";
+  }
+
+  else{
+    box.style.display = "block";
+  }
+
+}
