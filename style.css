@@ -305,3 +305,32 @@ footer { padding: 40px; color: #555; }
 .processing{
     color: #facc15;
 }
+.logo h1{
+    font-size: 32px;
+
+    white-space: nowrap;
+}
+.hero{
+    min-height: auto !important;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+section{
+    padding: 20px 15px !important;
+    margin: 0 !important;
+}
+.hero-content{
+    gap: 10px;
+}
+@media(max-width:768px){
+
+    .hero h1{
+        font-size: 42px;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+}

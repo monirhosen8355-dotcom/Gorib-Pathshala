@@ -442,22 +442,6 @@ const subjectData = [
     },
 ];
 
-// const grid = document.getElementById('subject-grid');
-
-// if (grid) {
-//     subjectData.forEach(item => {
-//         const card = document.createElement('div');
-//         card.className = 'card';
-//         card.innerHTML = `
-//             <i class="fas fa-book-open"></i>
-//             <h3>${item.title}</h3>
-//             <span class="teacher-empty">Teacher: [Yeasin]</span>
-//         `;
-//         card.onclick = () => openViewer(item);
-//         grid.appendChild(card);
-//     });
-// }
-
 const grid = document.getElementById('subject-grid');
 
 if (grid) {
