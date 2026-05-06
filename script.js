@@ -14,7 +14,7 @@ const subjectData = [
 
             { img: 'image/qu3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
             { img: 'image/qu3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qu3by3.jpg', text: 'Question3by4' },
+            { img: 'image/qu3by3.jpg', text: 'Question3by3' },
 
             { img: 'image/qu4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
             { img: 'image/qu4by2.jpg', text: 'Question4by2' },
@@ -29,7 +29,43 @@ const subjectData = [
             { img: 'image/qu6by3.jpg', text: 'Question6by3' }
         ]
     },
-    { title: 'হাদিস শরিফ', q: '১. ওহী কত প্রকার?', a: 'উত্তর: ওহী প্রধানত দুই প্রকার...', qImgs: [], aImgs: [] },
+
+{ 
+        title: 'মানতিক', 
+        q: 'Mantik Question', 
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Mantik Question.jpg'],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
     { title: 'ফিকহ ১ম', q: '১. ওযুর ফরয কয়টি?', a: 'উত্তর: ওযুর ফরয ৪টি।', qImgs: [], aImgs: [] },
     { title: 'ফিকহ ২য়', q: 'ফিকহ ২য় এর গুরুত্বপূর্ণ প্রশ্নসমূহ...', a: 'ফিকহ ২য় এর উত্তরসমূহ...', qImgs: [], aImgs: [] },
     { title: 'আরবি ১ম', q: '১. আল-আদাব এর সংজ্ঞা দাও।', a: 'উত্তর: সাহিত্যের বিশেষ শাখা...', qImgs: [], aImgs: [] },
