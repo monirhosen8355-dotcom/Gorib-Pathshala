@@ -595,7 +595,7 @@ setInterval(() => {
         const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const s = Math.floor((diff % (1000 * 60)) / 1000);
         const timerElement = document.getElementById('timer');
-        if (timerElement) timerElement.innerText = `Deadline: ${days} দিন ${h}:${m}:${s}`;
+        if (timerElement) timerElement.innerText = `A: ${days} দিন ${h}:${m}:${s}`;
     }
 }, 1000);
 
