@@ -238,6 +238,10 @@ footer { padding: 40px; color: #555; }
   background:linear-gradient(90deg,#3b82f6,#a855f7);
   color:white;
   cursor:pointer;
+
+  position:absolute;
+  right:50px;
+  top:100px;
 }
 
 .popup{
