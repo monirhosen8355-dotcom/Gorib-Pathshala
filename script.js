@@ -1,78 +1,7 @@
 const subjectData = [
-    { 
-        title: 'বালাগাত', 
-        examDate: '2026-05-17 10:00:00',
-        q: 'Question paper', 
-        a: 'বালাগাতের পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        status: 'complete',
-        qImgs: [{img: 'image/Balagat question.jpg',text: 'মানতিক প্রশ্নপত্র'}
-],
-        aImgs: [
-            { img: 'image/qu1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qu1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qu1by3.jpg', text: 'Question1by3' },
-            
-            { img: 'image/qu2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qu2by2.jpg', text: 'Question2by2' },
-
-            { img: 'image/qu3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qu3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qu3by3.jpg', text: 'Question3by3' },
-
-            { img: 'image/qu4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qu4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qu4by3.jpg', text: 'Question4by3' },
-
-            { img: 'image/qu5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qu5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qu5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/qu6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qu6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qu6by3.jpg', text: 'Question6by3' }
-        ]
-    },
-
-{ 
-        title: 'মানতিক', 
-        examDate: '2026-05-09 10:00:00',
-        q: 'Mantik Question', 
-        status: 'complete',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: [{img: 'image/Mantik Question.jpg',text: 'মানতিক প্রশ্নপত্র'}],
-        aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
-            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
-            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
-
-            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
-
-            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
-
-            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
-        ]
-    },
-   {
+     {
 title: 'আরবি ১ম পএ',
+examDate: '2026-05-09 10:00:00',
 q: 'Arabik 1st paper Question',
 status: 'complete',
 a: 'আরবি ১ম পএ এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো | সিন দুইটা থেকে ১ টা আসবে | আনসিন দুইটা থেকে ১ টা আসবে | কবিতার বড় প্রশ্ন (রচনা মূলক প্রম্ন) | সংক্ষিপ্ত প্রশ্ন উত্তর | ব্যাখ্যা ৩ টা থেকে ১ টা | কথোপকথন ১ টা ১ টাই কমন ১০০% | ইঙ্গিৎ বাচক শূণ্যস্হান | বাক্য বিন্যাস | সংক্ষিপ্ত প্রশ্ন',
@@ -148,14 +77,11 @@ aImgs: [
 {img: 'image/quaa11by1.jpg',text: '(𝟏𝟏) নং সংক্ষিপ্ত প্রশ্ন 📌 Question11by1 .......'},
 {img: 'image/quaa11by2.jpg',text: 'Question11by2'},
 {img: 'image/quaa11by3.jpg',text: 'Question11by3'},
-
-
 ]
-
 },
-
     { 
         title: 'ইংরেজি ২য় পএ', 
+        examDate: '2026-05-10 10:00:00',
         q: 'Mantik Question', 
         status: 'processing',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -193,7 +119,8 @@ aImgs: [
     },
 
    { 
-        title: 'মানতিক', 
+        title: 'হাদীস', 
+        examDate: '2026-05-11 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -231,7 +158,8 @@ aImgs: [
     },
 
     { 
-        title: 'মানতিক', 
+        title: 'ইতিহাস', 
+        examDate: '2026-05-12 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -269,7 +197,8 @@ aImgs: [
     },
 
     { 
-        title: 'মানতিক', 
+        title: 'ইংরেজি ১ম', 
+        examDate: '2026-05-13 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -307,7 +236,8 @@ aImgs: [
     },
 
    { 
-        title: 'মানতিক', 
+        title: 'ফিকহ ২য়', 
+        examDate: '2026-05-14 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -344,7 +274,8 @@ aImgs: [
         ]
     },
     { 
-        title: 'মানতিক', 
+        title: 'বাংলা ২য় / পৌর ১ম', 
+        examDate: '2026-05-16 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -380,7 +311,79 @@ aImgs: [
             { img: 'image/qua6by3.jpg', text: 'Question6by3' }
         ]
     },{ 
+        title: 'বালাগাত', 
+        examDate: '2026-05-17 10:00:00',
+        q: 'Question paper', 
+        a: 'বালাগাতের পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        status: 'complete',
+        qImgs: [{img: 'image/Balagat question.jpg',text: 'মানতিক প্রশ্নপত্র'}
+],
+        aImgs: [
+            { img: 'image/qu1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qu1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qu1by3.jpg', text: 'Question1by3' },
+            
+            { img: 'image/qu2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qu2by2.jpg', text: 'Question2by2' },
+
+            { img: 'image/qu3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qu3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qu3by3.jpg', text: 'Question3by3' },
+
+            { img: 'image/qu4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qu4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qu4by3.jpg', text: 'Question4by3' },
+
+            { img: 'image/qu5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qu5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qu5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qu6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qu6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qu6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+    { 
         title: 'মানতিক', 
+        examDate: '2026-05-17 10:00:00',
+        q: 'Mantik Question', 
+        status: 'complete',
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: [{img: 'image/Mantik Question.jpg',text: 'মানতিক প্রশ্নপত্র'}],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+{ 
+        title: 'বাংলা ১ম', 
+        examDate: '2026-05-18 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -416,43 +419,8 @@ aImgs: [
             { img: 'image/qua6by3.jpg', text: 'Question6by3' }
         ]
     },{ 
-        title: 'মানতিক', 
-        q: 'Mantik Question', 
-        status: 'Pending',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
-            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
-            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
-
-            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
-
-            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
-
-            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
-        ]
-    },{ 
-        title: 'মানতিক', 
+        title: 'ফিকহ ১ম', 
+        examDate: '2026-05-19 10:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -488,6 +456,83 @@ aImgs: [
             { img: 'image/qua6by3.jpg', text: 'Question6by3' }
         ]
     },
+    { 
+        title: 'কোরআন', 
+        examDate: '2026-05-20 10:00:00',
+        q: 'Mantik Question', 
+        status: 'Pending',
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Mantik Question.jpg'],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+    { 
+        title: 'আরবী ২য়', 
+        examDate: '2026-05-21 10:00:00',
+        q: 'Mantik Question', 
+        status: 'Pending',
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Mantik Question.jpg'],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+
 ];
 
 const grid = document.getElementById('subject-grid');
