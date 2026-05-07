@@ -68,160 +68,91 @@ const subjectData = [
             { img: 'image/qua6by3.jpg', text: 'Question6by3' }
         ]
     },
-   { 
-        title: 'মানতিক', 
-        q: 'Mantik Question', 
-        status: 'processing',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
-            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
-            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+   {
+title: 'আরবি ১ম পএ',
+q: 'Arabik 1st paper Question',
+status: 'complete',
+a: 'আরবি ১ম পএ এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো | সিন দুইটা থেকে ১ টা আসবে | আনসিন দুইটা থেকে ১ টা আসবে | কবিতার বড় প্রশ্ন (রচনা মূলক প্রম্ন) | সংক্ষিপ্ত প্রশ্ন উত্তর | ব্যাখ্যা ৩ টা থেকে ১ টা | কথোপকথন ১ টা ১ টাই কমন ১০০% | ইঙ্গিৎ বাচক শূণ্যস্হান | বাক্য বিন্যাস | সংক্ষিপ্ত প্রশ্ন',
+qImgs: [
+{img: 'image/Demo1.jpg', text: 'এটা শুধু মাএ একটা DEMO প্রশ্ন এটা থেকে কোন কিছুই আসবেনা বিস্তারিত Ans:part এ দেওয়া হলো:'},
+{img: 'image/Demo2.jpg'},
+{img: 'image/Demo3.jpg'},
+{img: 'image/Demo4.jpg'}
+],
 
-            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+aImgs: [
+{img: 'image/quaa1by1.jpg',text: '(𝟏) নং 1st SEEN উত্তর 📌 Question1by1'},
+{img: 'image/quaa1by2.jpg',text: 'Question1by2'},
+{img: 'image/quaa1by3.jpg',text: 'Question1by3'},
+{img: 'image/quaa1by4.jpg',text: 'Question1by4'},
+{img: 'image/quaa1by5.jpg',text: 'Question1by5'},
+{img: 'image/quaa1by6.jpg',text: 'Question1by6'},
+{img: 'image/quaa1by7.jpg',text: 'Question1by7'},
+{img: 'image/quaa1by8.jpg',text: 'Question1by8'},
 
-            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+{img: 'image/quaa2by1.jpg',text: '(𝟐) নং 𝟐nd SEEN প্রশ্নের উত্তর 📌 Question2by1 .......'},
+{img: 'image/quaa2by2.jpg',text: 'Question2by2'},
+{img: 'image/quaa2by3.jpg',text: 'Question2by3'},
+{img: 'image/quaa2by4.jpg',text: 'Question2by4'},
+{img: 'image/quaa2by5.jpg',text: 'Question2by5'},
+{img: 'image/quaa2by6.jpg',text: 'Question2by6'},
+{img: 'image/quaa2by7.jpg',text: 'Question2by7'},
+{img: 'image/quaa2by8.jpg',text: 'Question2by8'},
+{img: 'image/quaa2by9.jpg',text: 'Question2by9'},
 
-            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
 
-            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
-        ]
-    },
+{img: 'image/quaa3by1.jpg',text: '(𝟑) নং 1st UNSEEN প্রশ্নের উত্তর 📌 Question3by1 .......'},
+{img: 'image/quaa3by2.jpg',text: 'Question3by2'},
+{img: 'image/quaa3by3.jpg',text: 'Question3by3'},
+{img: 'image/quaa3by4.jpg',text: 'Question3by4'},
+{img: 'image/quaa3by5.jpg',text: 'Question3by5'},
+{img: 'image/quaa3by6.jpg',text: 'Question3by6'},
+{img: 'image/quaa3by7.jpg',text: 'Question3by7'},
 
-    { 
-        title: 'মানতিক', 
-        q: 'Mantik Question', 
-        status: 'processing',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
-            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
-            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+{img: 'image/quaa4by1.jpg',text: '(𝟒) নং 𝟐nd UNSEEN প্রশ্নের উত্তর 📌 Question4by1 .......'},
+{img: 'image/quaa4by2.jpg',text: 'Question4by2'},
+{img: 'image/quaa4by3.jpg',text: 'Question4by3'},
+{img: 'image/quaa4by4.jpg',text: 'Question4by4'},
+{img: 'image/quaa4by5.jpg',text: 'Question4by5'},
+{img: 'image/quaa4by6.jpg',text: 'Question4by6'},
 
-            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+{img: 'image/quaa5by1.jpg',text: '(𝟓) নং কবিতার বড় প্রশ্ন (রচনা মূলক প্রম্ন) 📌 Question5by1 .......'},
+{img: 'image/quaa5by2.jpg',text: 'Question5by2'},
+{img: 'image/quaa5by3.jpg',text: 'Question5by3'},
+{img: 'image/quaa5by4.jpg',text: 'Question5by4'},
+{img: 'image/quaa5by5.jpg',text: 'Question5by5'},
 
-            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+{img: 'image/quaa6by1.jpg',text: '(𝟔) নং সংক্ষিপ্ত প্রশ্ন উত্তর 📌 Question6by1 .......'},
+{img: 'image/quaa6by2.jpg',text: 'Question6by2'},
+{img: 'image/quaa6by3.jpg',text: 'Question6by3'},
 
-            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+{img: 'image/quaa7by1.jpg',text: '(𝟕) নং ব্যাখ্যা ৩ টা থেকে ১ টা প্রশ্ন উত্তর 📌 Question7by1 .......'},
+{img: 'image/quaa7by2.jpg',text: 'Question7by2'},
+{img: 'image/quaa7by3.jpg',text: 'Question7by3'},
 
-            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
-        ]
-    },
+{img: 'image/quaa8by1.jpg',text: '(𝟖) নং কথোপকথন ১ টা ১ টাই কমন ১০০% প্রশ্ন উত্তর 📌 Question8by1 .......'},
+{img: 'image/quaa8by2.jpg',text: 'Question8by2'},
 
-   { 
-        title: 'মানতিক', 
-        q: 'Mantik Question', 
-        status: 'processing',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
-            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
-            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+{img: 'image/quaa9by1.jpg',text: '(𝟗) নং ইঙ্গিৎ বাচক শূণ্যস্হান প্রশ্ন উত্তর 📌 Question8by1 .......'},
+{img: 'image/quaa9by2.jpg',text: 'Question8by2'},
+{img: 'image/quaa9by3.jpg',text: 'Question8by3'},
 
-            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+{img: 'image/quaa10by1.jpg',text: '(𝟏𝟎) নং বাক্য বিন্যাস 📌 Question10by1 .......'},
+{img: 'image/quaa10by2.jpg',text: 'Question10by2'},
+{img: 'image/quaa10by3.jpg',text: 'Question10by3'},
+{img: 'image/quaa10by4.jpg',text: 'Question10by4'},
 
-            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+{img: 'image/quaa11by1.jpg',text: '(𝟏𝟏) নং সংক্ষিপ্ত প্রশ্ন 📌 Question11by1 .......'},
+{img: 'image/quaa11by2.jpg',text: 'Question11by2'},
+{img: 'image/quaa11by3.jpg',text: 'Question11by3'},
 
-            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
 
-            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
-        ]
-    },
+]
+
+},
 
     { 
-        title: 'মানতিক', 
-        q: 'Mantik Question', 
-        status: 'processing',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
-            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
-            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
-            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
-
-            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
-
-            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
-            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
-
-            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
-            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
-        ]
-    },
-
-    { 
-        title: 'মানতিক', 
+        title: 'ইংরেজি ২য় পএ', 
         q: 'Mantik Question', 
         status: 'processing',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
@@ -261,7 +192,121 @@ const subjectData = [
    { 
         title: 'মানতিক', 
         q: 'Mantik Question', 
-        status: 'processing',
+        status: 'Pending',
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Mantik Question.jpg'],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+
+    { 
+        title: 'মানতিক', 
+        q: 'Mantik Question', 
+        status: 'Pending',
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Mantik Question.jpg'],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+
+    { 
+        title: 'মানতিক', 
+        q: 'Mantik Question', 
+        status: 'Pending',
+        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: ['image/Mantik Question.jpg'],
+        aImgs: [
+            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/qua1by3.jpg', text: 'Question1by3' },
+            { img: 'image/qua1by4.jpg', text: 'Question1by4' },
+            
+            { img: 'image/qua2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
+            { img: 'image/qua2by2.jpg', text: 'Question2by2' },
+            { img: 'image/qua2by3.jpg', text: 'Question2by3' },
+            { img: 'image/qua2by4.jpg', text: 'Question2by4' },
+
+            { img: 'image/qua3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
+            { img: 'image/qua3by2.jpg', text: 'Question3by2' },
+            { img: 'image/qua3by3.jpg', text: 'Question3by3' },
+            { img: 'image/qua3by4.jpg', text: 'Question3by4' },
+
+            { img: 'image/qua4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
+            { img: 'image/qua4by2.jpg', text: 'Question4by2' },
+            { img: 'image/qua4by3.jpg', text: 'Question4by3' },
+            { img: 'image/qua4by4.jpg', text: 'Question4by4' },
+            { img: 'image/qua4by5.jpg', text: 'Question4by5' },
+
+            { img: 'image/qua5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
+            { img: 'image/qua5by2.jpg', text: 'Question5by2' },
+            { img: 'image/qua5by3.jpg', text: 'Question5by3' },
+
+            { img: 'image/qua6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/qua6by2.jpg', text: 'Question6by2' },
+            { img: 'image/qua6by3.jpg', text: 'Question6by3' }
+        ]
+    },
+
+   { 
+        title: 'মানতিক', 
+        q: 'Mantik Question', 
+        status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
@@ -298,7 +343,7 @@ const subjectData = [
     { 
         title: 'মানতিক', 
         q: 'Mantik Question', 
-        status: 'processing',
+        status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
@@ -334,7 +379,7 @@ const subjectData = [
     },{ 
         title: 'মানতিক', 
         q: 'Mantik Question', 
-        status: 'processing',
+        status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
@@ -370,7 +415,7 @@ const subjectData = [
     },{ 
         title: 'মানতিক', 
         q: 'Mantik Question', 
-        status: 'processing',
+        status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
@@ -406,7 +451,7 @@ const subjectData = [
     },{ 
         title: 'মানতিক', 
         q: 'Mantik Question', 
-        status: 'processing',
+        status: 'Pending',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
@@ -482,12 +527,21 @@ function openViewer(item) {
     if (viewer) {
         title.innerText = item.title;
 
-        const qImages = item.qImgs && item.qImgs.length ? item.qImgs.map(img => `
-            <div style="margin-top:15px">
-                <img src="${img}" style="width:100%; border-radius:10px;">
-                <a href="${img}" download style="display:block; margin-top:5px; color:#00f2fe;">⬇ Download</a>
-            </div>
-        `).join('') : '';
+        const qImages = item.qImgs && item.qImgs.length ? item.qImgs.map(obj => `
+    <div style="margin-top:15px">
+
+        <p style="margin-bottom:5px; font-weight:bold;">
+            ${obj.text || ''}
+        </p>
+
+        <img src="${obj.img}" style="width:100%; border-radius:10px;">
+
+        <a href="${obj.img}" download style="display:block; margin-top:5px; color:#00f2fe;">
+            ⬇ Download
+        </a>
+
+    </div>
+`).join('') : '';
 
         // 🔥 শুধু এখানে update (text + image)
         const aImages = item.aImgs && item.aImgs.length ? item.aImgs.map(obj => `
