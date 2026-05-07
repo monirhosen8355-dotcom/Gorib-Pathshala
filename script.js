@@ -1,10 +1,12 @@
 const subjectData = [
     { 
         title: 'বালাগাত', 
+        examDate: '2026-05-17 10:00:00',
         q: 'Question paper', 
         a: 'বালাগাতের পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         status: 'complete',
-        qImgs: ['image/Balagat question.jpg'],
+        qImgs: [{img: 'image/Balagat question.jpg',text: 'মানতিক প্রশ্নপত্র'}
+],
         aImgs: [
             { img: 'image/qu1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
             { img: 'image/qu1by2.jpg', text: 'Question1by2' },
@@ -33,10 +35,11 @@ const subjectData = [
 
 { 
         title: 'মানতিক', 
+        examDate: '2026-05-09 10:00:00',
         q: 'Mantik Question', 
         status: 'complete',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
+        qImgs: [{img: 'image/Mantik Question.jpg',text: 'মানতিক প্রশ্নপত্র'}],
         aImgs: [
             { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
             { img: 'image/qua1by2.jpg', text: 'Question1by2' },
@@ -491,31 +494,37 @@ const grid = document.getElementById('subject-grid');
 
 if (grid) {
 
-    subjectData.forEach(item => {
+subjectData.forEach((item, index) => {
 
-        const card = document.createElement('div');
+const card = document.createElement('div');
 
-        card.className = 'card';
+card.className = 'card';
 
-        card.innerHTML = `
-            <i class="fas fa-book-open"></i>
+card.innerHTML = `
+<i class="fas fa-book-open"></i>
 
-            <h3>${item.title}</h3>
+<h3>${item.title}</h3>
 
-            <span class="teacher-empty">
-                Teacher: [Yeasin]
-            </span>
 
-            <p class="status ${item.status}">
-                ● ${item.status}
-            </p>
-        `;
 
-        card.onclick = () => openViewer(item);
+<p class="status ${item.status}">
+● ${item.status}
+</p>
 
-        grid.appendChild(card);
+<p class="exam-timer" id="timer-${index}">
+Loading...
+</p>
 
-    });
+<span class="teacher-empty">
+Powered by Gorib Pathshala
+</span>
+`;
+
+card.onclick = () => openViewer(item);
+
+grid.appendChild(card);
+
+});
 
 }
 function openViewer(item) {
@@ -639,20 +648,6 @@ if (canvas) {
     animate();
 }
 
-const target = new Date("May 9, 2026 10:00:00").getTime();
-setInterval(() => {
-    const now = new Date().getTime();
-    const diff = target - now;
-    if (diff > 0) {
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const s = Math.floor((diff % (1000 * 60)) / 1000);
-        const timerElement = document.getElementById('timer');
-        if (timerElement) timerElement.innerText = ` ${days} day ${h}:${m}:${s}`;
-    }
-}, 1000);
-
 window.onclick = function(event) {
     const viewer = document.getElementById('full-view');
     if (event.target == viewer) closeViewer();
@@ -682,9 +677,7 @@ function scrollToSubjects() {
         behavior: "smooth"
     });
 }
-function showRoutine(){
-  document.getElementById("routineBox").style.display = "block";
-}
+
 function showRoutine(){
 
   let box = document.getElementById("routineBox");
@@ -698,3 +691,52 @@ function showRoutine(){
   }
 
 }
+setInterval(() => {
+
+const now = new Date().getTime();
+
+subjectData.forEach((item,index)=>{
+
+const examTime = new Date(item.examDate).getTime();
+
+const diff = examTime - now;
+
+const timer = document.getElementById(`timer-${index}`);
+
+if(!timer) return;
+
+if(diff <= 0){
+
+timer.innerHTML = "✅ Exam Started";
+
+timer.style.color = "#00ff99";
+
+return;
+
+}
+
+const days = Math.floor(diff / (1000*60*60*24));
+
+const h = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+
+const m = Math.floor((diff % (1000*60*60)) / (1000*60));
+
+const s = Math.floor((diff % (1000*60)) / 1000);
+
+timer.innerHTML = `
+⏳ ${days}d ${h}h ${m}m ${s}s
+`;
+
+if(diff <= 86400000){
+
+timer.style.color = "red";
+
+}else{
+
+timer.style.color = "#00ff99";
+
+}
+
+});
+
+},1000);
