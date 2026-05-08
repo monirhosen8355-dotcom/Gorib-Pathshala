@@ -316,7 +316,7 @@ aImgs: [
         q: 'Question paper', 
         a: 'বালাগাতের পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         status: 'complete',
-        qImgs: [{img: 'image/Balagat question.jpg',text: 'মানতিক প্রশ্নপত্র'}
+        qImgs: [{img: 'image/Balagat question.jpg',text: 'বালাগাত প্রশ্নপত্র'}
 ],
         aImgs: [
             { img: 'image/qu1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
@@ -785,3 +785,18 @@ timer.style.color = "#00ff99";
 });
 
 },1000);
+function showVideo(){
+
+let box = document.getElementById("videoBox");
+
+if(box.style.display === "block"){
+
+box.style.display = "none";
+
+}else{
+
+box.style.display = "block";
+
+}
+
+}
