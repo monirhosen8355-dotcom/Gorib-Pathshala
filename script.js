@@ -752,7 +752,7 @@ if(!timer) return;
 
 if(diff <= 0){
 
-timer.innerHTML = "✅ Exam Started";
+timer.innerHTML = "❌ Exam End";
 
 timer.style.color = "#00ff99";
 
