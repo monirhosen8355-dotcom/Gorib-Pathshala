@@ -84,7 +84,7 @@ aImgs: [
         examDate: '2026-05-10 08:00:00',
         q: 'Mantik Question', 
         status: 'complete',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        a: 'বাংলা ১ম এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
        qImgs: [
 {img: 'image/mcqbangla1.jpg', text: ''},
 {img: 'image/mcqbangla2.jpg'},
