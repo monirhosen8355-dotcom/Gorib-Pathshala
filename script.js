@@ -83,7 +83,7 @@ aImgs: [
         title: 'বাংলা ১ম', 
         examDate: '2026-05-10 08:00:00',
         q: 'Mantik Question', 
-        status: 'processing',
+        status: 'complete',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
        qImgs: [
 {img: 'image/mcqbangla1.jpg', text: ''},
@@ -127,7 +127,7 @@ aImgs: [
         title: 'হাদীস', 
         examDate: '2026-05-11 08:00:00',
         q: 'Mantik Question', 
-        status: 'Pending',
+        status: 'processing',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
