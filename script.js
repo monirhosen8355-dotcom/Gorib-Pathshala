@@ -805,13 +805,3 @@ box.style.display = "block";
 }
 
 }
-const music1 = new Audio("Music.mp4");
-const music2 = new Audio("Music.mp4");
-
-music1.play();
-
-setTimeout(() => {
-
-music2.play();
-
-}, 5000);
