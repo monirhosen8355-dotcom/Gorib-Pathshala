@@ -79,16 +79,21 @@ aImgs: [
 {img: 'image/quaa11by3.jpg',text: 'Question11by3'},
 ]
 },
-    { 
-        title: 'ইংরেজি ২য় পএ', 
+{ 
+        title: 'বাংলা ১ম', 
         examDate: '2026-05-10 08:00:00',
         q: 'Mantik Question', 
         status: 'processing',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
+       qImgs: [
+{img: 'image/mcqbangla1.jpg', text: ''},
+{img: 'image/mcqbangla2.jpg'},
+{img: 'image/cqbangla1.jpg'},
+{img: 'image/cqbangla2.jpg'}
+],
         aImgs: [
-            { img: 'image/qua1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/qua1by2.jpg', text: 'Question1by2' },
+            { img: 'image/quaaa1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/quaaa1by2.jpg', text: 'Question1by2' },
             { img: 'image/qua1by3.jpg', text: 'Question1by3' },
             { img: 'image/qua1by4.jpg', text: 'Question1by4' },
             
@@ -381,8 +386,8 @@ aImgs: [
             { img: 'image/qua6by3.jpg', text: 'Question6by3' }
         ]
     },
-{ 
-        title: 'বাংলা ১ম', 
+ { 
+        title: 'ইংরেজি ২য় পএ', 
         examDate: '2026-05-18 08:00:00',
         q: 'Mantik Question', 
         status: 'Pending',
