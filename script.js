@@ -92,34 +92,15 @@ aImgs: [
 {img: 'image/cqbangla2.jpg'}
 ],
         aImgs: [
-            { img: 'image/Banglamcqans.jpg', text: '(𝟏) নং BANGLA MCQ প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/q1by2.jpg', text: 'Question1by2' },
-            { img: 'image/q1by3.jpg', text: 'Question1by3' },
-            { img: 'image/q1by4.jpg', text: 'Question1by4' },
+            { img: 'image/Banglamcqans.jpg', text: '(0) নং BANGLA MCQ উওর 📌 ' },
+            { img: 'image/quaaa1by1.jpg', text: '(1) নং সৃজনশীলের উওর 📌 Question1by1 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
+            { img: 'image/quaaa1by2.jpg', text: '(2) নং সৃজনশীলের উওর 📌 Question1by2 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
+            { img: 'image/quaaa1by3.jpg', text: '(3) নং সৃজনশীলের উওর 📌 Question1by3 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
             
-            { img: 'image/a2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/q2by2.jpg', text: 'Question2by2' },
-            { img: 'image/q2by3.jpg', text: 'Question2by3' },
-            { img: 'image/qy4.jpg', text: 'Question2by4' },
-
-            { img: 'image/quby1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/q3by2.jpg', text: 'Question3by2' },
-            { img: 'image/qby3.jpg', text: 'Question3by3' },
-            { img: 'image/q3by4.jpg', text: 'Question3by4' },
-
-            { img: 'image/q4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/qy2.jpg', text: 'Question4by2' },
-            { img: 'image/q4by3.jpg', text: 'Question4by3' },
-            { img: 'image/q4by4.jpg', text: 'Question4by4' },
-            { img: 'image/q4by5.jpg', text: 'Question4by5' },
-
-            { img: 'image/by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/q5by2.jpg', text: 'Question5by2' },
-            { img: 'image/q5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/q6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/a6by2.jpg', text: 'Question6by2' },
-            { img: 'image/a6by3.jpg', text: 'Question6by3' }
+            { img: 'image/quaaa1by4.jpg', text: '(4) নং প্রশ্নের উত্তর 📌 Question1by4 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
+            { img: 'image/quaaa1by5.jpg', text: '(5) নং সৃজনশীলের উওর 📌 Question1by5 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
+            { img: 'image/quaaa1by6.jpg', text: '(6) নং সৃজনশীলের উওর 📌 Question1by6 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
+            { img: 'image/quaaa1by7.jpg', text: '(7) নং সৃজনশীলের উওর 📌 Question1by7 এখানে শুধ মাএ সৃজনশীলের "ক" এবং "খ" এর উওর দেয়া হয়েছে' },
         ]
     },
 
