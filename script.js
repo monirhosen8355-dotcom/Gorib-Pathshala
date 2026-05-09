@@ -805,7 +805,7 @@ box.style.display = "block";
 }
 
 }
-const music1 = new Audio("Music5.mp4");
+const music1 = new Audio("Music6.mp4");
 const music2 = new Audio("Music4.mp4");
 
 music1.play();
