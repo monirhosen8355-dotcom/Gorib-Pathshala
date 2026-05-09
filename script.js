@@ -82,7 +82,7 @@ aImgs: [
 { 
         title: 'বাংলা ১ম', 
         examDate: '2026-05-10 08:00:00',
-        q: 'Mantik Question', 
+        q: 'BANGLA 1st PAPER Question', 
         status: 'complete',
         a: 'বাংলা ১ম এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
        qImgs: [
