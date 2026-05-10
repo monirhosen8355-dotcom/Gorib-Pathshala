@@ -8,12 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <audio autoplay>
+    <audio id="bgmusic" controls autoplay hidden>
    <source src="Music6.mp4" type="audio/mp4">
-</audio>
-
-<audio autoplay>
-   <source src="Music4.mp4" type="audio/mp4">
 </audio>
     <div id="terms-popup" class="terms-overlay">
     <div class="terms-box">
@@ -128,5 +124,18 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+
+const music = document.getElementById("bgmusic");
+
+music.onended = function(){
+
+music.src = "Music4.mp4";
+
+music.play();
+
+}
+
+</script>
 </body>
 </html>
