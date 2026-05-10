@@ -107,7 +107,7 @@ aImgs: [
    { 
         title: 'হাদীস', 
         examDate: '2026-05-11 08:00:00',
-        q: 'HADIS Question', 
+        q: 'HADIS Question মোট ১৪ টি হাদিস', 
         status: 'complete',
         a: 'হাদীস এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
        qImgs: [
