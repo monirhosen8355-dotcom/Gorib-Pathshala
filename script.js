@@ -821,3 +821,18 @@ box.style.display = "block";
 }
 
 }
+function startMusic(){
+
+const music = document.getElementById("bgmusic");
+
+music.play();
+
+music.onended = function(){
+
+music.src = "Music4.mp4";
+
+music.play();
+
+}
+
+}

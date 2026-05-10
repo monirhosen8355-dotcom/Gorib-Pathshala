@@ -45,9 +45,13 @@
         </nav>
         <br>
         <br>
-        <button class="routine-btn" onclick="showVideo()">
-🎥Website ব্যবহার
+        <button class="routine-btn" onclick="startMusic()">
+🎵 Start Music
 </button>
+
+<audio id="bgmusic" hidden>
+   <source src="Music6.mp4" type="audio/mp4">
+</audio>
 
 <div id="videoBox" style="display:none; margin-top:20px;">
 
@@ -126,15 +130,7 @@
     <script src="script.js"></script>
     <script>
 
-const music = document.getElementById("bgmusic");
-
-music.onended = function(){
-
-music.src = "Music4.mp4";
-
-music.play();
-
-}
+        
 
 </script>
 </body>
