@@ -821,18 +821,18 @@ box.style.display = "block";
 }
 
 }
-function startMusic(){
+// function startMusic(){
 
-const music = document.getElementById("bgmusic");
+// const music = document.getElementById("bgmusic");
 
-music.play();
+// music.play();
 
-music.onended = function(){
+// music.onended = function(){
 
-music.src = "Music4.mp4";
+// music.src = "Music4.mp4";
 
-music.play();
+// music.play();
 
-}
+// }
 
-}
+// }
