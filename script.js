@@ -178,7 +178,7 @@ aImgs: [
         examDate: '2026-05-12 08:00:00',
         q: 'Mantik Question', 
         status: 'processing',
-        notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর WEBSITE এ হাদিস দিয়ে দেয়া হবে',
+        notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর WEBSITE এ History দিয়ে দেয়া হবে',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
