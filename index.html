@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <body>
+
+<audio id="music" autoplay>
+   <source src="Music6.mp4" type="audio/mp4">
+</audio>
+
+<script>
+
+const music = document.getElementById("music");
+
+music.addEventListener("ended", () => {
+
+music.src = "Music4.mp4";
+
+music.play();
+
+});
+
+</script>
     <div id="terms-popup" class="terms-overlay">
     <div class="terms-box">
         <h2>📜 শর্তাবলী</h2>
