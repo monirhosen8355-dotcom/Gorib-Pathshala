@@ -108,39 +108,68 @@ aImgs: [
         title: 'হাদীস', 
         examDate: '2026-05-11 08:00:00',
         q: 'HADIS Question', 
-        status: 'processing',
-        notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর হাদিস দিয়ে দেয়া হবে',
+        status: 'complete',
         a: 'হাদীস এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: [''],
+       qImgs: [
+        {img: 'image/hadisq1.jpg', text: '1 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq2.jpg', text: '2 ও 3নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq3.jpg', text: '4 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq4.jpg', text: '5 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq5.jpg', text: '6 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq6.jpg', text: '7 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq7.jpg', text: '8 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq8.jpg', text: '9 ও 10 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq9.jpg', text: '11 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq10.jpg', text: '12 নং হাদিস এর প্রশ্ন'},
+        {img: 'image/hadisq11.jpg', text: '13 ও 14 নং হাদিস এর প্রশ্ন'},
+],
         aImgs: [
-            { img: 'image/q1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/q1by2.jpg', text: 'Question1by2' },
-            { img: 'image/q1by3.jpg', text: 'Question1by3' },
-            { img: 'image/q1by4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/q2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/q2by2.jpg', text: 'Question2by2' },
-            { img: 'image/q2by3.jpg', text: 'Question2by3' },
-            { img: 'image/q2by4.jpg', text: 'Question2by4' },
+            { img: 'image/hqu1by1.jpg', text: '(𝟏) নং হাদিসের উওর পএ 🍁 📌 Question1by1 ' },
+            { img: 'image/hqu1by2.jpg', text: 'Question1by2' },
+            { img: 'image/hqu1by3.jpg', text: 'Question1by3' },
 
-            { img: 'image/q3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/q3by2.jpg', text: 'Question3by2' },
-            { img: 'image/q3by3.jpg', text: 'Question3by3' },
-            { img: 'image/3by4.jpg', text: 'Question3by4' },
+            { img: 'image/hqu1by4.jpg', text: '(𝟐) নং হাদিসের উওর পএ 🍁 📌 Question2by1' },
+            { img: 'image/hqu1by5.jpg', text: 'Question2by1' },
+            { img: 'image/hqu1by6.jpg', text: 'Question2by2' },
 
-            { img: 'image/q4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/q4by2.jpg', text: 'Question4by2' },
-            { img: 'image/q4by3.jpg', text: 'Question4by3' },
-            { img: 'image/q4by4.jpg', text: 'Question4by4' },
-            { img: 'image/q4by5.jpg', text: 'Question4by5' },
+            { img: 'image/hqu1by7.jpg', text: '(𝟑)নং হাদিসের উওর পএ 🍁📌 Question3by1' },
+            { img: 'image/hqu1by8.jpg', text: 'Question3by2' },
 
-            { img: 'image/q5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/q5by2.jpg', text: 'Question5by2' },
-            { img: 'image/q5by3.jpg', text: 'Question5by3' },
+            { img: 'image/hqu1by9.jpg', text: '(4) নং হাদিসের উওর পএ 🍁 📌 Question4by1'},
+            { img: 'image/hqu1by10.jpg', text: 'Question4by2' },
+            { img: 'image/hqu1by11.jpg', text: 'Question4by3' },
 
-            { img: 'image/q6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/q6by2.jpg', text: 'Question6by2' },
-            { img: 'image/q6by3.jpg', text: 'Question6by3' }
+            { img: 'image/hqu1by12.jpg', text: ' (5) নং হাদিসের উওর পএ 🍁 📌 Question5by1' },
+            { img: 'image/hqu1by13.jpg', text: 'Question5by2' },
+
+            { img: 'image/hqu1by14.jpg', text: '(6) নং হাদিসের উওর পএ 🍁 📌 Question6by1' },
+            { img: 'image/hqu1by15.jpg', text: 'Question6by2' },
+            { img: 'image/hqu1by16.jpg', text: 'Question6by3' },
+
+            { img: 'image/hqu1by17.jpg', text: '(7)নং হাদিসের উওর পএ 🍁 📌  Question7by1' },
+            { img: 'image/hqu1by18.jpg', text: 'Question7by2' },
+
+            { img: 'image/hqu1by19.jpg', text: '(8) নং হাদিসের উওর পএ 🍁📌 Question8by1' },
+            { img: 'image/hqu1by20.jpg', text: 'Question8by2' },
+
+            { img: 'image/hqu1by21.jpg', text: '(9) নং হাদিসের উওর পএ 🍁 📌 Question9by1' },
+            { img: 'image/hqu1by22.jpg', text: 'Question9by2' },
+
+             { img: 'image/hqu1by23.jpg', text: '(10) নং হাদিসের উওর পএ 🍁 📌 Question10by1' },
+            { img: 'image/hqu1by24.jpg', text: 'Question10by2' },
+
+             { img: 'image/hqu1by25.jpg', text: '(11) নং হাদিসের উওর পএ 🍁 📌 Question11by1' },
+            { img: 'image/hqu1by26.jpg', text: 'Question11by2' },
+
+             { img: 'image/hqu1by27.jpg', text: '(12) নং হাদিসের উওর পএ 🍁 📌 Question12by1' },
+            { img: 'image/hqu1by28.jpg', text: 'Question12by2' },
+
+             { img: 'image/hqu1by29.jpg', text: '(13) নং হাদিসের উওর পএ 🍁 📌 Question13by1' },
+            { img: 'image/hqu1by30.jpg', text: 'Question13by2' },
+            { img: 'image/hqu1by31.jpg', text: 'Question13by3' },
+
+            { img: 'image/hqu1by32.jpg', text: '(14) নং হাদিসের উওর পএ 🍁 📌 Question14by1' },
+            { img: 'image/hqu1by33.jpg', text: 'Question14by2' },
         ]
     },
 
@@ -148,7 +177,8 @@ aImgs: [
         title: 'ইতিহাস', 
         examDate: '2026-05-12 08:00:00',
         q: 'Mantik Question', 
-        status: 'Pending',
+        status: 'processing',
+        notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর WEBSITE এ হাদিস দিয়ে দেয়া হবে',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
