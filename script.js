@@ -109,6 +109,7 @@ aImgs: [
         examDate: '2026-05-11 08:00:00',
         q: 'HADIS Question', 
         status: 'processing',
+        notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর হাদিস দিয়ে দেয়া হবে',
         a: 'হাদীস এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: [''],
         aImgs: [
@@ -540,6 +541,10 @@ card.innerHTML = `
 
 <p class="status ${item.status}">
 ● ${item.status}
+</p>
+
+<p class="notice-text">
+${item.notice || ""}
 </p>
 
 <p class="exam-timer" id="timer-${index}">
