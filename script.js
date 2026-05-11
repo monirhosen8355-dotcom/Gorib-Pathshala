@@ -177,8 +177,7 @@ aImgs: [
         title: 'ইতিহাস', 
         examDate: '2026-05-12 08:00:00',
         q: 'HISTORY Question', 
-        status: 'processing',
-        notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর WEBSITE এ History দিয়ে দেয়া হবে',
+        status: 'complete',
         a: 'ইতিহাস এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: [
          {img: 'image/hismcq1.jpg', text: '------1-----MCQ Question paper'},
@@ -187,43 +186,25 @@ aImgs: [
          {img: 'image/hisqu2.jpg',text: '2'}
 ],   
      aImgs: [
-            { img: 'image/historymcqans.jpg', text: '(0) নং HISTORY MCQ প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/q1by2.jpg', text: 'Question1by2' },
-            { img: 'image/q1by3.jpg', text: 'Question1by3' },
-            { img: 'image/q1by4.jpg', text: 'Question1by4' },
+            { img: 'image/historymcqans.jpg', text: '(0) নং HISTORY MCQ প্রশ্নের উত্তর 📌 Question0by0 ' },
+
+            { img: 'image/his1by1.jpg', text: '(1 and 2) 1 ও 2 নং প্রশ্নের উত্তর 📌 Question1by1 and Question1by2 ' },
+            { img: 'image/his1by2.jpg', text: '(3) 3 নং প্রশ্নের উত্তর 📌 Question3by1' },
+            { img: 'image/his1by3.jpg', text: '(4 and 5) 4 ও 5 নং প্রশ্নের উত্তর 📌 Question4by1 and Question5by1' },
             
-            { img: 'image/q2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/quby2.jpg', text: 'Question2by2' },
-            { img: 'image/a2by3.jpg', text: 'Question2by3' },
-            { img: 'image/a2by4.jpg', text: 'Question2by4' },
-
-            { img: 'image/3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/q3by2.jpg', text: 'Question3by2' },
-            { img: 'image/a3by3.jpg', text: 'Question3by3' },
-            { img: 'image/qa3by4.jpg', text: 'Question3by4' },
-
-            { img: 'image/q4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/q4by2.jpg', text: 'Question4by2' },
-            { img: 'image/q4by3.jpg', text: 'Question4by3' },
-            { img: 'image/q4by4.jpg', text: 'Question4by4' },
-            { img: 'image/q4by5.jpg', text: 'Question4by5' },
-
-            { img: 'image/q5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/q5by2.jpg', text: 'Question5by2' },
-            { img: 'image/q5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/a6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/q6by2.jpg', text: 'Question6by2' },
-            { img: 'image/q6by3.jpg', text: 'Question6by3' }
+            { img: 'image/his1by4.jpg', text: '(5) 5 নং প্রশ্নের উত্তর 📌 Question5by2' },
+            { img: 'image/his1by5.jpg', text: '(6) 6 নং প্রশ্নের উত্তর 📌 Question6by1' },
+            { img: 'image/his1by6.jpg', text: '(7) 7 নং প্রশ্নের উত্তর 📌 Question7by1' },
         ]
     },
 
     { 
         title: 'ইংরেজি ১ম', 
         examDate: '2026-05-13 08:00:00',
-        q: 'Mantik Question', 
-        status: 'Pending',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        q: 'English Question', 
+        status: 'processing',
+        notice: '⏰ রাত 7:30 থেকে 8:00 টার ভিতর WEBSITE এ English 1st দিয়ে দেয়া হবে',
+        a: 'ইংরেজি ১ম এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
             { img: 'image/qby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
