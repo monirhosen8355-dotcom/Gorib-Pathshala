@@ -176,12 +176,17 @@ aImgs: [
     { 
         title: 'ইতিহাস', 
         examDate: '2026-05-12 08:00:00',
-        q: 'Mantik Question', 
+        q: 'HISTORY Question', 
         status: 'processing',
         notice: '⏰ রাত 7:00 থেকে 7:30 টার ভিতর WEBSITE এ History দিয়ে দেয়া হবে',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
+        a: 'ইতিহাস এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+        qImgs: [
+         {img: 'image/hismcq1.jpg', text: '------1-----MCQ Question paper'},
+         {img: 'image/hismcq2.jpg',text: '2'},
+         {img: 'image/hisqu1.jpg', text: '------1-----CQ Question paper'},
+         {img: 'image/hisqu2.jpg',text: '2'}
+],   
+     aImgs: [
             { img: 'image/qby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
             { img: 'image/q1by2.jpg', text: 'Question1by2' },
             { img: 'image/q1by3.jpg', text: 'Question1by3' },
