@@ -187,7 +187,7 @@ aImgs: [
          {img: 'image/hisqu2.jpg',text: '2'}
 ],   
      aImgs: [
-            { img: 'image/qby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/historymcqans.jpg', text: '(0) নং HISTORY MCQ প্রশ্নের উত্তর 📌 Question1by1 ' },
             { img: 'image/q1by2.jpg', text: 'Question1by2' },
             { img: 'image/q1by3.jpg', text: 'Question1by3' },
             { img: 'image/q1by4.jpg', text: 'Question1by4' },
