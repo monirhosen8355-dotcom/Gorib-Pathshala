@@ -202,14 +202,14 @@ aImgs: [
         title: 'ইংরেজি ১ম', 
         examDate: '2026-05-13 08:00:00',
         q: 'English Question', 
-        status: 'Rejected',
-        notice: 'মাসুদ ভাই কিছু দেয়নাই টাকা দেসনাই যে....',
+        status: 'complete',
         a: 'ইংরেজি ১ম এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
        qImgs: [
-         {img: 'image/fuck.jpg', text: 'বসে বসে তসবীহ পড়ো'},
+         {img: 'image/eng1st1by1.jpg', text: 'উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো'},
+         {img: 'image/eng1st1by2.jpg', text: 'উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো'},
        ],
         aImgs: [
-            { img: 'image/qby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
+            { img: 'image/qby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো | উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো | উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো | উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো | উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো | উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো|' },
             { img: 'image/qby2.jpg', text: 'Question1by2' },
             { img: 'image/q1by3.jpg', text: 'Question1by3' },
             { img: 'image/quby4.jpg', text: 'Question1by4' },
@@ -243,11 +243,13 @@ aImgs: [
    { 
         title: 'ফিকহ ২য়', 
         examDate: '2026-05-14 08:00:00',
-        q: 'Mantik Question', 
+        q: 'Fiqah Question', 
         status: 'processing',
+        notice: 'রাত ৮ টার আগে দিয়ে দেয়া হতে পারে 😅',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
+            
             { img: 'image/quby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
             { img: 'image/quby2.jpg', text: 'Question1by2' },
             { img: 'image/quby3.jpg', text: 'Question1by3' },
