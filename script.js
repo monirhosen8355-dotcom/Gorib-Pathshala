@@ -202,8 +202,8 @@ aImgs: [
         title: 'ইংরেজি ১ম', 
         examDate: '2026-05-13 08:00:00',
         q: 'English Question', 
-        status: 'processing',
-        notice: '⏰ রাত 7:30 থেকে 8:00 টার ভিতর WEBSITE এ English 1st দিয়ে দেয়া হবে',
+        status: 'Rejected',
+        notice: 'মাসুদ ভাই কিছু দেয়নাই টাকা দেসনাই যে....',
         a: 'ইংরেজি ১ম এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
@@ -242,7 +242,7 @@ aImgs: [
         title: 'ফিকহ ২য়', 
         examDate: '2026-05-14 08:00:00',
         q: 'Mantik Question', 
-        status: 'Pending',
+        status: 'processing',
         a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
         qImgs: ['image/Mantik Question.jpg'],
         aImgs: [
