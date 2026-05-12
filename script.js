@@ -205,7 +205,9 @@ aImgs: [
         status: 'Rejected',
         notice: 'মাসুদ ভাই কিছু দেয়নাই টাকা দেসনাই যে....',
         a: 'ইংরেজি ১ম এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
+       qImgs: [
+         {img: 'image/fuck.jpg', text: 'বসে বসে তসবীহ পড়ো'},
+       ],
         aImgs: [
             { img: 'image/qby1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
             { img: 'image/qby2.jpg', text: 'Question1by2' },
