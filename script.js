@@ -256,39 +256,23 @@ aImgs: [
         title: 'বাংলা ২য় / পৌর ১ম', 
         examDate: '2026-05-16 08:00:00',
         q: 'Bangla Question', 
-        status: 'processing',
-        notice: '⚠️কিছু নাই 😕🥲',
+        status: 'complete',
+        // notice: '⚠️কিছু নাই 😕🥲',
         a: 'Bangla এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
-        aImgs: [
-            { img: 'image/q1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/q1by2.jpg', text: 'Question1by2' },
-            { img: 'image/q1by3.jpg', text: 'Question1by3' },
-            { img: 'image/q1by4.jpg', text: 'Question1by4' },
+         qImgs: [{img: 'image/bangla2qu.jpg', text: 'Bangla 2nd Question paper'}],        
+            aImgs: [
+            { img: 'image/question1by1.jpg', text: '(𝟏2) নং প্রশ্নের উত্তর 📌Rochona Question1by1 ' },
+            { img: 'image/question1by2.jpg', text: 'Question1by2' },
+            { img: 'image/question1by3.jpg', text: 'Question1by3' },
+            { img: 'image/question1by4.jpg', text: 'Question1by4' },
             
-            { img: 'image/q2by1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/q2by2.jpg', text: 'Question2by2' },
-            { img: 'image/q2by3.jpg', text: 'Question2by3' },
-            { img: 'image/quby4.jpg', text: 'Question2by4' },
+            { img: 'image/question2by1.jpg', text: '(11) নং প্রশ্নের উত্তর 📌 Songlap Question2by1' },
+            { img: 'image/question2by2.jpg', text: 'Question2by2' },
 
-            { img: 'image/quby1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/quby2.jpg', text: 'Question3by2' },
-            { img: 'image/quby3.jpg', text: 'Question3by3' },
-            { img: 'image/q3by4.jpg', text: 'Question3by4' },
+            { img: 'image/question4by1.jpg', text: '(07) নং প্রশ্নের উত্তর 📌 Question4by1' },
 
-            { img: 'image/q4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/q4by2.jpg', text: 'Question4by2' },
-            { img: 'image/q4by3.jpg', text: 'Question4by3' },
-            { img: 'image/qu4by4.jpg', text: 'Question4by4' },
-            { img: 'image/qu4by5.jpg', text: 'Question4by5' },
+            { img: 'image/question3by1.jpg', text: '(10) নং প্রশ্নের উত্তর 📌 Question3by1'},
 
-            { img: 'image/qu5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/qu5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qu5by3.jpg', text: 'Question5by3' },
-
-            { img: 'image/q6by1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/q6by2.jpg', text: 'Question6by2' },
-            { img: 'image/q6by3.jpg', text: 'Question6by3' }
         ]
     },{ 
         title: 'বালাগাত', 
