@@ -461,42 +461,18 @@ aImgs: [
     { 
         title: 'আরবী ২য়', 
         examDate: '2026-05-21 08:00:00',
-        q: 'Mantik Question', 
-        status: 'Pending',
-        a: 'মানতিক এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
-        qImgs: ['image/Mantik Question.jpg'],
+        q: 'Arabik Question', 
+        status: 'complete',
+        a: 'Arabik এর পূর্ণ প্রশ্ন ও উত্তর নিচে দেওয়া হলো', 
+         qImgs: [
+         {img: 'image/arabic1by1.jpg', text: 'উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো'},
+         {img: 'image/arabik1by2.jpg', text: 'উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো'},
+         {img: 'image/arabik1by3.jpg', text: 'উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো'},
+       ],
         aImgs: [
-            { img: 'image/q1by1.jpg', text: '(𝟏) নং প্রশ্নের উত্তর 📌 Question1by1 ' },
-            { img: 'image/q1by2.jpg', text: 'Question1by2' },
-            { img: 'image/q1by3.jpg', text: 'Question1by3' },
-            { img: 'image/quby4.jpg', text: 'Question1by4' },
-            
-            { img: 'image/quby1.jpg', text: '(𝟐) নং প্রশ্নের উত্তর 📌 Question2by1' },
-            { img: 'image/q2by2.jpg', text: 'Question2by2' },
-            { img: 'image/q2by3.jpg', text: 'Question2by3' },
-            { img: 'image/q2by4.jpg', text: 'Question2by4' },
-
-            { img: 'image/u3by1.jpg', text: '(𝟑) নং প্রশ্নের উত্তর 📌 Question3by1'},
-            { img: 'image/quby2.jpg', text: 'Question3by2' },
-            { img: 'image/q3by3.jpg', text: 'Question3by3' },
-            { img: 'image/q3by4.jpg', text: 'Question3by4' },
-
-            { img: 'image/q4by1.jpg', text: '(𝟒) নং প্রশ্নের উত্তর 📌 Question4by1' },
-            { img: 'image/q4by2.jpg', text: 'Question4by2' },
-            { img: 'image/q4by3.jpg', text: 'Question4by3' },
-            { img: 'image/q4by4.jpg', text: 'Question4by4' },
-            { img: 'image/q4by5.jpg', text: 'Question4by5' },
-
-            { img: 'image/q5by1.jpg', text: '(𝟓) নং প্রশ্নের উত্তর 📌 Question5by1' },
-            { img: 'image/q5by2.jpg', text: 'Question5by2' },
-            { img: 'image/qby3.jpg', text: 'Question5by3' },
-
-            { img: 'image/qby1.jpg', text: '(𝟔) নং প্রশ্নের উত্তর 📌 Question6by1' },
-            { img: 'image/qby2.jpg', text: 'Question6by2' },
-            { img: 'image/q6by3.jpg', text: 'Question6by3' }
+            {text: 'উওর গুলা নিজে নিজে বাইর করে পড়ে ফেলো *Chatgpt *Gemini *Cloud' },
         ]
     },
-
 ];
 
 const grid = document.getElementById('subject-grid');
